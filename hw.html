@@ -1,0 +1,101 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <link rel="stylesheet" href="css.css">
+        <style>
+             body {
+                display:inline-flex;
+         }
+
+    .form {
+                background-color:lightgrey;
+                width: 400px;
+                height: 200px;
+                text-align: center;
+        }
+
+    .list {
+                width: 300px;
+                height: 250px;
+                border: 1px solid #ccc;
+
+              
+        }
+
+    input[type=text] {
+                width: 100%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+        }
+
+    input[type=radio] {
+                
+                padding: 12px 20px;
+                margin: 8px 0;
+                display: inline;
+                
+                border-radius: 4px;
+                box-sizing: border-box;
+        }
+
+    input[type=submit] {
+                width: 100%;
+                background-color: #4CAF50;
+                color: white;
+                padding: 14px 20px;
+                margin: 8px 0;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+        }
+
+    .StudentField {
+                    padding: 15px;
+        }
+
+
+    input[type=submit]:hover {
+               background-color: #45a049;
+        }
+        </style>
+        <script>
+            var a = new Array();
+            var info = {
+                
+            };
+            
+        </script>
+    </head>
+    <body>
+        <div class="form"> 
+            <label for="name">Student name:</label><br>
+            <input type="text" id="name" name="Name" placeholder="Your name.." ><br>
+            <label for="number">Student number:</label><br>
+            <input type="text" id="number" name="Number" placeholder="Your number."><br><br>
+            <label for="field">Student Field</label>
+            <div class="StudentField">
+                    <input type="radio" id="computer sicence" name="StudentField" value="computer sicence">
+                    <label for="computer sicence">computer sicence</label><br>
+                    <input type="radio" id="Information Tech" name="StudentField" value="Information Tech">
+                    <label for="Information Tech">Information Tech</label><br>
+                    <input type="radio" id="Compute Engneering" name="StudentField" value="Compute Engneering">
+                    <label for="Compute Engneering">Compute Engneering</label>
+            </div>
+            <input type="submit" value="Submit">
+        </div>
+        
+        <div class="list">
+
+            <h4>List of Student :</h4>
+
+        </div>
+        
+    </body>
+ </html>
+
+
+   
